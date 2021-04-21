@@ -1,0 +1,34 @@
+{
+    "name": "hqw-util",
+    "version": "2.0.1",
+    "description": "this is hqw util!",
+    "main": "./lib/index.js",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack serve --open --mode=development",
+        "webpack:pro": "webpack --mode=production"
+    },
+    "keywords": [
+        "react"
+    ],
+    "author": "hqw",
+    "license": "MIT",
+    "dependencies": {
+        "@darkobits/lolcatjs": "^3.1.3",
+        "commander": "^7.2.0",
+        "cross-spawn": "^7.0.3",
+        "figlet": "^1.5.0",
+        "lodash-es": "^4.17.21",
+        "progress": "^2.0.3",
+        "umi-request": "^1.3.5",
+        "webpack": "^5.32.0",
+        "yargs-parser": "^20.2.7"
+    },
+    "devDependencies": {
+        "eslint": "^7.24.0",
+        "eslint-plugin-react": "^7.23.2"
+    }
+}
