@@ -1,6 +1,6 @@
 {
     "name": "hqw-util",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "this is hqw util!",
     "main": "./lib/index.js",
     "files": [
@@ -14,6 +14,11 @@
     "keywords": [
         "react"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/huangpiaofighting/hqw-util"
+    },
+    "homepage": "https://github.com/huangpiaofighting/hqw-util",
     "author": "hqw",
     "license": "MIT",
     "dependencies": {
